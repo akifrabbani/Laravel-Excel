@@ -1,6 +1,5 @@
 {
   "name": "akifrabbani/excel",
-  "url": "https://github.com/akifrabbani/Laravel-Excel.git",
   "description": "An eloquent way of importing and exporting Excel and CSV in Laravel 4 with the power of PHPExcel",
   "license": "LGPL",
   "keywords": [
@@ -57,10 +56,10 @@
   "extra": {
         "laravel": {
             "providers": [
-                "Maatwebsite\\Excel\\ExcelServiceProvider"
+                "Akifrabbani\\Excel\\ExcelServiceProvider"
             ],
             "aliases": {
-                "Excel": "Maatwebsite\\Excel\\Facades\\Excel"
+                "Excel": "Akifrabbani\\Excel\\Facades\\Excel"
             }
         }
     }
